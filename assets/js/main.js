@@ -28,19 +28,19 @@ while (i <= 100) {
 
   //impongo la condizione per cui se una divisione per 3 e 5 ha resto 0 stampo fizzbuzz
     if (i % 3 == 0 && i % 5 == 0) {
-      document.getElementById('result').innerHTML += "<li>" + i + " FizzBuzz" + "</li>";
+      document.getElementById('result').innerHTML += "<li>" + " FizzBuzz" + "</li>";
       //console.log(i,"FizzBuzz");
     }
     //impongo la condizione per cui se una divisione per 3 ha resto 0 stampo fizz
 
     else if (i % 3 == 0) {
-      document.getElementById('result').innerHTML +="<li>" +  i + " Fizz"+ "</li>";
+      document.getElementById('result').innerHTML +="<li>" + " Fizz"+ "</li>";
       //console.log(i,"Fizz");
     }
     //impongo la condizione per cui se una divisione per 5 ha resto 0 stampo buzz
 
     else if (i % 5 == 0  ) {
-      document.getElementById('result').innerHTML +="<li>" +  i + " Buzz"+ "</li>";
+      document.getElementById('result').innerHTML +="<li>" + " Buzz"+ "</li>";
     //  console.log(i,"Buzz");
     }
     else {
