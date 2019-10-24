@@ -1,0 +1,11 @@
+ul#result
+{
+list-style-type: none;
+}
+
+ul#result li
+{
+display: block;
+padding: 5px;
+font-size: 2em;
+}
